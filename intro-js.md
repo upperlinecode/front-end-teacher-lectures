@@ -8,7 +8,7 @@
 + Understand and use variables to store data.
 + Use built in methods to manipulate data (.toUpper, etc)
 + Use a for loop to iterate over an array
-+ Use vanilla javascript to show how the dom can be manipulated (as a precursor to jquery)
++ Use vanilla javascript to show how the DOM can be manipulated (as a precursor to jQuery)
 
 
 ## Lecture Overview:
@@ -69,15 +69,45 @@ There are some very quick functions that we are going to play with, even though 
 **Mini-Break: Have students create popups and prompts**
 
 ## Data Types
+(Most students in the advanced class will have seen these already, so you can move pretty quickly. For Upperline FE class, slow this down with additional examples. Move to using variables with `var variableName` here soon)
 
-+ Integers
-+ Floats
-+ Strings
-+ Arrays
-+ Objects
++ *Integers* - Whole numbers: 1, 2, 5, etc. You can perform basic math operations.
++ *Floats* - Decimal number.
++ *Strings* - A series of characters: "Taylor is number 1!"
++ *Arrays* - An ordered list that let's us hold many pieces of data at once:
+  + `var groceries = ["peanut butter", "jelly", "bread"]`
+  + Discuss notation, adding, removing, deleting, and accessing items.
++ *Objects* - Like arrays, but hold two pieces of data (a key and a value, for every item)
+```js
+var shopping_list = {
+  eggs: 5,
+  bacon: 1,
+  cheese: 3,
+}
+
+shopping_list.eggs
+//Returns 5
+
+shopping_list.bacon
+//Returns 1
+
+shopping_list.bread = 2
+//Adds bread:2 as a key value pair
+
+```
 
 ## Conditionals
+Conditionals (or if statements) are the 'brains' of a program. They decide when certain code is run, depending on criteria you create.
 
-## Functions
+```
+var age = 16
+var message = ""
+if (age > 17){
+  message = "You can drive"
+} else {
+  message = "No driving for you yet"
+}
 
-## Iterating/Looping
+console.log(message)
+
+```

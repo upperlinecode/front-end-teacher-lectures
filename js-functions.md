@@ -15,21 +15,25 @@ Put up the following "black boxes" and have the students give them names and exp
 4 ——> 8
 25 —> 50
 ```
-
 2)
+```
 CAT —> DBU
 HELLO —> IFMMP
 SOLAR —> TPMBS
-
+```
 3)
+```
 Nicki, 10 -> Nicki was born in 2007
 Joe, 21 -> Joe was born in 1996
 Andrea, 45 —> Andrea was born in 1972
-
+```
 4)
+
+```
 3.9 -> A
 3.0 -> B
 1.0 -> F
+```
 
 What we've done here is think about the black boxes as machines that do something when they are given data. That is exactly what functions do in javascript, they accept information, do something to it, and then return new output. Instead of having to write a bunch of code over and over, we can just call a function by the name we've given it.
 
