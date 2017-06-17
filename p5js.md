@@ -1,4 +1,4 @@
-# Javascript with P5js
+# Javascript with P5js - Teacher Lecture Notes
 
 SWBAT:
 * Use the P5 library to build interactive art pieces.
@@ -94,10 +94,11 @@ function draw() {
 ```js
 function draw() {
   fill(255,200,0);
-  ellipse(mouseX, mouseY, 50, 50)
+  ellipse(mouseX, mouseY, width/10, height/5)
 }
 ```
-**Ask for student predictions**
-The circle follows the mouse because it's x and y positions are the mouseX and mouseY variables.
+**Ask for student predictions. Where will the ellipse be? Will it move? What will happen to it's size if we change the size of the canvas?**
 
-**Mini Challenges: Look at the variables mini challenges in the student labs**
+The circle follows the mouse because it's x and y positions are the mouseX and mouseY variables. It will change in size relative to the canvas because it's width and height use `width` and `height` as variables.
+
+**Mini Challenges: Look at the variables mini challenges in the student labs section**
