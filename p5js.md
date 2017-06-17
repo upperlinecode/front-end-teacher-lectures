@@ -102,3 +102,11 @@ function draw() {
 The circle follows the mouse because it's x and y positions are the mouseX and mouseY variables. It will change in size relative to the canvas because it's width and height use `width` and `height` as variables.
 
 **Mini Challenges: Look at the variables mini challenges in the student labs section**
+
+### If Statements (Conditionals)
+Let's make our code a little smarter
+
+
+## Bouncing Ball Walkthrough
+
+Build out a bouncing ball
